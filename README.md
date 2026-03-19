@@ -1,5 +1,6 @@
 # fivem-asi
-Updated .ASIs for FiveM, updater available. 
+Updated .ASIs for FiveM, updater app available. [(releases)](https://github.com/tr1nity0/fivem-asi/releases/tag/build). 
+
 ## Installation
 
 None, executable comes with dist .NET 8.0
