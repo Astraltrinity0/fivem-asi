@@ -3,7 +3,7 @@ Updated .ASIs for FiveM, updater app available. [(releases)](https://github.com/
 
 ## Installation
 
-None, executable comes with dist .NET 8.0
+Self-contained single `.exe`, no `.NET` install required for end users None. (dist `.NET` 8.0 Included)
     
 ## Supported Builds
 
@@ -24,3 +24,9 @@ None, executable comes with dist .NET 8.0
 3570 | mp2025_01 | Money Fronts | Beta(unstable)
 ```
 
+
+## Functionality
+
+- Embeds a `FX_ASI_BUILD` resource under a numeric type ID (e.g. `3258`) with language `1033`
+- Uses AsmResolver to read/write the PE resource directory properly
+- Build number is embedded as a numeric type ID (`MAKEINTRESOURCE`)
